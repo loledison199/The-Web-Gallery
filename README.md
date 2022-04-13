@@ -1,4 +1,4 @@
-# Building the backend
+# Description
 
 Web API following the REST design principles.  
 
@@ -10,7 +10,7 @@ Web API following the REST design principles.
 - `webgallery/db/`: the NeDB database files
 - `webgallery/uploads/`: the uploaded files
 
-## Description
+## Specification
 
 Users should be able to:
 
