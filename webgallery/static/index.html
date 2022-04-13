@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>The Web Gallery</title>
+   
+</head>
+<body>
+    <header>
+        <link href="style/form.css" rel="stylesheet" type="text/css"/>
+        <link href="style/gallery.css" rel="stylesheet" type="text/css"/>
+        <link href="style/comments.css" rel="stylesheet" type="text/css"/>
+    </header>
+
+    <button type="click" class="btn" id="toggle">show form</button>
+    
+    <form class="complex_form" id="add_image_form">
+      <div id="form_title">Post a image</div>
+      <input type="text" id="image_title" class="form_element" placeholder="Enter image title" name="image_name" maxlength="255" required/>
+      <input type="text" id="image_author" class="form_element" placeholder="Enter image author" name="author_name" required/>
+      <input type="file" id="image_url" class="form_element" name="picture" accept="image/*"required/>
+      <button type="submit" class="btn">submit</button>
+    </form>
+    
+    <div id="image_gallery"></div>
+    <div id="comment_form"></div>
+    <div id="comments"></div>
+
+    <footer>
+        <a href='/credits.html'>credits</a>
+    </footer>
+    
+    <script src="js/api.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+#comments{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.comment{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 1px solid black; 
+    width: 50%;
+    justify-content: space-around;
+}
+
+.comment_property {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    justify-content: space-between;
+    font-size: 15px;
+
+}
+
+#comment_delete {
+    border-radius:5px;
+    text-align:center;
+    font-size: 15px;
+    color: black;
+    background: #ffffff;
+    border: 2px black solid;
+    padding: 5px 5px 5px 5px;
+}
